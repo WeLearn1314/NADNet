@@ -1,5 +1,5 @@
 # NADNet
-A lightweight and effective neuron attention CNN for image denoising (NADNet) by Jibin Deng*, Chaohua Hu is submitted to Signal, Image and Video Processing, 2023.
+A lightweight and effective neuron attention CNN for image denoising (NADNet) by Jibin Deng*, Chaohua Hu is submitted to Signal, Image and Video Processing, 2024.
  
 # Prerequisites:
 python == 3.6.2
