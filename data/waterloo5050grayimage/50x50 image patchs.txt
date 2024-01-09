@@ -1,0 +1,1 @@
+The generated gray 50 x 50 image patchs by running "python data_generator.py".
