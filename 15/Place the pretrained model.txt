@@ -1,0 +1,1 @@
+Paste the pretrained model with sigma=15 from the folder "pretrained_models".
