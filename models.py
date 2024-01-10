@@ -36,5 +36,8 @@ def NADNet():
     x = Conv2D(filters=1, kernel_size=(3,3), strides=(1,1), padding='same')(x)  # gray is 1, color is 3.
     o = Subtract()([inpt, x])
     model = Model(inputs=inpt, outputs=o)
-    # model.summary() # print the size of model.
+    # model.summary() # print the size of model
+    # x = torch.randn(1,1,50,50)
+    # flops, params = thop.profile(NADNet(),inputs=(x,))
+    # print(flops/1e9, params/1e6)
     return model
