@@ -25,7 +25,7 @@ python mainimprovement.py
 # Denoising Testing
 For test the NADNet, please run:
 
-python mainimprovement.py --pretrain sigma/model_50.h5 --only_test True
+python mainimprovement.py --pretrain sigma (e.g., 15, 25 and 50)/model_50.h5 --only_test True
 
 # Denoising Datasets
 The gray train dataset "Train400" you can download here (Selected in the paper):
