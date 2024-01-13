@@ -46,7 +46,6 @@ if not args.only_test:
 else:
     save_dir = '/'.join(args.pretrain.split('/')[:-1]) + '/'
 
-
 def step_decay(epoch):
     
     initial_lr = args.lr
@@ -99,7 +98,6 @@ def train():
     return model
 
 def test(model):
-    
     print('Start to test on {}'.format(args.test_dir))
     out_dir = save_dir + args.test_dir.split('/')[-1] + '/'
     if not os.path.exists(out_dir):
